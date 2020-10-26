@@ -74,7 +74,7 @@ corrplot_nsquare = function(rg, trait1, trait2, traits_use = NULL, order = "orig
 
   corrplot(mat2, method = "psquare", order = order,
            p.mat = qmat2, sig.level = 0.05, sig = "pch",
-           pch = "*", pch.cex = 1.5,
+           pch = "*", pch.cex = 1.5, full_col=FALSE,
            na.label = "square", na.label.col = "grey30")
   # return(list(mat = mat2, qmat = qmat2))
 }
