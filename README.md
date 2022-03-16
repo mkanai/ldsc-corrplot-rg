@@ -18,7 +18,7 @@ devtools::install_github("mkanai/corrplot")
 ## Genetic correlation plot (Fig. 2)
 We modified [corrplot](https://github.com/taiyun/corrplot) to visualize pairwise genetic correlations estimated via [bivariate LD score regression](https://www.nature.com/articles/ng.3406). Larger squares correspond to more significant FDRs (`corrplot(method = 'psquare', p.mat = p.mat, ...)`). Significant correlations (FDR < 0.05) are indicated by asterisks (`corrplot(sig = 'pch', sig.level = 0.05, pch = '*')`).
 
-<p align="center"><img src="http://mkanai.github.io/img/Kanai2018_Fig2.svg" width="640px"></p>
+<p align="center"><img src="https://mkanai.github.io/assets/img/Kanai2018_Fig2.svg" width="640px"></p>
 
 ### Usage
 ```{sh}
